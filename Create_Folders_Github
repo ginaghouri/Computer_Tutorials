@@ -1,6 +1,8 @@
-The steps for creating a folder in a GitHub repo are simple but not immediately clear. 
-Two rules: you must have a repo and you can’t create empty folders. Provided you satisfy those conditions, the following steps will result in a new folder:
-Follow these 4 steps:
+The steps for creating a folder in a GitHub repo are simple, but not immediately clear. 
+Two rules: you must have a repo and you can’t create empty folders.
+
+The following steps will result in a new folder:
+
 1.Make sure you’re in an existing repository
 2.Click "creating a new file" if the repo is empty or Add file > Create a file if not.
 3.Type the name of the folder in the input field, followed by a forward slash character.
