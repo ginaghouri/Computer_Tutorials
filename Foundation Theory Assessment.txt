@@ -1,0 +1,81 @@
+Theory Questions Answers 
+
+1.SDLC stands for Software Development Life Cycle model framework including software design, deployment, testing and maintenance, etc.
+
+2. We get an error in python called ZeroDivisionError, because we get infinite when you divide a number by zero and it cannot be represented in the console.
+
+3. It is the command called „git push”: first locate the remote repository then upload your branches.
+
+4. The keyword NULL is used to represent missing values in the SQL database.
+
+5. One of the responsibilties of the Scrum Master is to improve and implement scrum methodology and principles for the scrum team at scrum events and meetings.The second responsibilty is to serve the product owner by ensureing product scope, improvement and backlog management.
+
+6. Two debugging methods with examples of use:
+1. „print statements” when we suspect a simple problem in specific area of code, see how variables change eg.for i in range (20): result=i/2 print (i, result)
+2. inbuilt debugger called „pdb” to set breakpoints and examine code dynamically for more complex cases eg. import pdb pdb.set_trace()
+
+7. The can_pay() function can throw an error by an invalid input, so you can add „try” and” except TypeError” for handling such case, so the code would look like this now:
+
+def can_pay(price, cash_given):
+    try:
+        if cash_given >= price:
+            return True
+        else:
+            return False
+    except TypeError:
+        return False 
+
+
+8. Git branching is a powerful tool for us software developers, mainly because without affecting the main branch in git version we can create separate branches which isolate certain features to work on with our team: fix bugs, maintain code-change history and merge back into the main. We can use the following commands, for example to submit a new file from our branch back to the main branch: 
+
+git add .
+git commit -m "submitting new files"
+git push origin main
+
+When we make a commit, Git stores a commit object that contains a pointer to the snapshot of the content we staged. This object also contains the author’s name and their message. Git also offers tools for creating, deleting, renaming, and managing branches. For example: 
+
+git branch [branch-name] create a new branch at current commit 
+git checkout switch to another branch
+git merge [branch] merge the specified branch’s history into current one 
+
+9. Design a restaurant ordering system-high-level approach: 
+
+a.	Draw a list of key requirements
+
+1. identifying customers and staff members
+2. managing the menu and its discounts
+3. placing and tracking orders
+4. processing of payments
+5. customer feedback and notifications
+6. interaction with delivery services
+
+b.	What are your main considerations and problems?
+1.customers’ and staff members’ data privacy 
+
+2. regulations for food safety,ingredient availabilty 
+3. streamlining order processing of kitchen for timely preparation
+4. ensuring secure payments with data security
+5. addressing feedback effectively
+6. handling high traffic and rush hours
+
+c.	What components or tools would you potentially use? 
+
+A behavioral design pattern called "Chain of Responsibility" (ref.) https://refactoring.guru/design-patterns/chain-of-responsibility
+
+1.web/mobile application for customers with python
+2.sql database system to store menu items, customer and staff data 
+3.cloud hosting and servers to handle order processing and database interactions
+4.APIs and encryption tools for secure payment and processing services
+5. online surveys, sms/email services for feedback and notifications
+6. mapping services for tracking deliveries
+
+
+
+
+
+
+
+
+
+
+
