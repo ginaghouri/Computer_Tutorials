@@ -1,6 +1,6 @@
-Problem Solving Logic 👩‍💻👨‍💻
+Problem-Solving Logic 👩‍💻👨‍💻
 
-1.Understand the problem: read the question once, twice or more until you get a clear understanding of it
+1. Understand the problem, don’t rush through it: read the question out loud once, twice or more until you get a clear understanding of it. Ask questions or google what you aren’t sure about
 
 2. See the technical (function) description: what is it asking to do? What data type and method(s) should you use?
 
@@ -18,13 +18,13 @@ Problem Solving Logic 👩‍💻👨‍💻
 
 9. Break down the problem into smaller sub-problems: This makes it easier to solve
 
-10. Start on a paper, write the pseudo code in steps and with your own comments!
+10. Start on a paper, write the pseudo code in steps and with your own comments, even in your native language! The simpler the solution, the better
 
-11.Try different approaches: Don't be afraid to experiment with different techniques. There is no single "best" way to solve a  problem. The most important thing is to understand it, choose an appropriate technique, and write efficient and correct code
+11.Try different approaches: Don't be afraid to experiment with different techniques. There is no single "best" way to solve a  problem. The most important thing is to understand it, choose an appropriate technique, and use your pseudo code to write efficient and correct code
 
-12.Run the code, test for edge cases with custom inputs, check for unexpected inputs and errors 
+12.Look back and review: have a solution, optimize and clean-up code, comment what you do, make improvements! (demonstrates attention to the quality of your work)
 
-13. Have a solution, optimize and clean-up code,  comment what you do!
+13.Run the code, test for edge cases with custom inputs, check for unexpected inputs and errors 
 
 14.Submit your code for review! If it is wrong turn to the Discussions or/and Editorial for better understanding of the solution
 
@@ -43,6 +43,7 @@ Trees & Graphs: traversal (BFS, DFS), searching, finding specific nodes, pathfin
 Hash Tables: key-value storage, insertion, deletion, lookup
 
 16.By Problem Type:
+
 Implementation: translate problem description into code efficiently
 
 Problem-solving:understand the problem, analyze constraints, design an algorithm
@@ -50,8 +51,7 @@ Problem-solving:understand the problem, analyze constraints, design an algorithm
 Data analysis: process and interpret data to answer questions
 
 Mathematical:solve problems involving mathematical concepts.
-.
+
 
 Author: Gina Rubik
 Based on Hackerrank  
-
